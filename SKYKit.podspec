@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/SkygearIO/skygear-SDK-iOS"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { "Oursky Ltd." => "hello@oursky.com" }
-  s.source           = { :git => "https://github.com/SkygearIO/skygear-SDK-iOS.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/netcosports/skygear-SDK-iOS.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
