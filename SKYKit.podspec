@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     core.private_header_files = 'Pod/Classes/**/*_Private.h'
 
     core.dependency 'SocketRocket', '~> 0.4'
-    core.dependency 'MagicKit', :git => 'https://github.com/netcosports/MagicKit.git'
+    core.dependency 'MagicKit', '~> 0.0.7'
     core.dependency 'XMLDictionary', '~> 1.4.1'
     core.dependency 'UICKeyChainStore', '~> 2.1.0'
   end
